@@ -33,3 +33,5 @@ if (shExpMatch(host, "localhost") || isInNet(host,"127.*", "255.0.0.0") ) {
 } else {
   return "DIRECT";
 }
+
+}
