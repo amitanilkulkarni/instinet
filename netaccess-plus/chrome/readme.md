@@ -2,16 +2,16 @@
 
 #### Option 1:
 
+- Download the [crx file](https://github.com/amitanilkulkarni/instinet/blob/master/netaccess-plus/chrome/Netaccess%20Plus.crx?raw=true) and save it in your home folder/desktop.
+- Open [chrome://extensions/](chrome://extensions/).
+- Drag and drop the crx file from desktop to Chrome. Click on Install when asked.
+ 
+#### Option 2:
+
 - Download [Netaccess Plus.zip](https://github.com/amitanilkulkarni/instinet/blob/master/netaccess-plus/chrome/Netaccess%20Plus.zip?raw=true)
 - Extract it to some folder.
 - Go to [chrome://extensions/](chrome://extensions/) and enable developer mode checkbox
 - Choose 'Install unpacked extension', and navigate to the folder where you extracted it.
-- Enjoy!
- 
-#### Option 2:
-
-- Download the [crx file](https://github.com/amitanilkulkarni/instinet/blob/master/netaccess-plus/chrome/Netaccess%20Plus.crx?raw=true) and google how to install it locally.
-- Tell me how you did that so that I could update this.
 
 #### Option 3:
 
