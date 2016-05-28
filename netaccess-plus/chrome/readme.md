@@ -18,6 +18,8 @@
 - Wait till I gather enough cash to throw at Google to publish it on their store. :/
 - Download and install it from Chrome Store.
 
+![In all it's glory!](/screenshot.png?raw=true "Screenshot")
+
 ```
  <rant>      Chrome seems to be particularly anal about letting people install packages that are not hosted on their webstore. Hosting it on their webstore needs a one-time $5 contribution, which doesn't make sense since I won't be developing anything else for Google. Apparently there are Alternative distribution options (https://developer.chrome.com/extensions/external_extensions), but they all looked complicated when I glanced through them. Pain in the ass. :/ To make things worse, Firefox also seems to be following the same footsteps. WHY, MOZILLA, WHY????!!!! YOU WERE THE CHOSEN ONE!!!      </rant>
 ```
