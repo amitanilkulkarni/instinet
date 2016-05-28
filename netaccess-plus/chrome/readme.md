@@ -19,5 +19,5 @@
 - Download and install it from Chrome Store.
 
 <rant>
-    Chrome is particularly anal about letting people install packages that are not hosted on their webstore. Hosting it on their webstore needs a one-time $5 contribution, which I am skeptical to make since I won't be developing anything else for Google. Apparently there are [Alternative distribution options](https://developer.chrome.com/extensions/external_extensions). You have the file. Go ahead and knock yourself out. Too bad Firefox is following the same steps. :/
+Chrome is particularly anal about letting people install packages that are not hosted on their webstore. Hosting it on their webstore needs a one-time $5 contribution, which I am skeptical to make since I won't be developing anything else for Google. Apparently there are [Alternative distribution options](https://developer.chrome.com/extensions/external_extensions). You have the file. Go ahead and knock yourself out. Too bad Firefox is following the same steps. :/
 </rant>
