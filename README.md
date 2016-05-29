@@ -5,8 +5,8 @@ A collection of scripts for IIT Madras campus network
 
 A one-click Netaccess authenticator for IIT Madras students. It's available in the following forms:
 
-- [Firefox Extension]() for desktop and Android (Fully verified by Mozilla)
-- [A Google Chrome Extension]()
+- [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/netaccess-addon/) for desktop and Android (Fully verified by Mozilla)
+- [A Google Chrome Extension](https://is.gd/netaccess_chrome)
  
 Source code and README is available in respective folders.
 
