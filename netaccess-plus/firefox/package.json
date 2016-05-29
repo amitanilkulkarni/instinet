@@ -1,0 +1,70 @@
+{
+  "title": "Netaccess Plus",
+  "name": "netaccess-addon",
+  "version": "2.2.0",
+  "description": "One-click authenticator for Netaccess.",
+  "main": "main.js",
+  "author": "Amit Kulkarni",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "preferences": [
+    {
+      "name": "authmode",
+      "type": "radio",
+      "title": "Authentication mode",
+      "description": "(Restart browser, or disable & enable the add-on to apply)",
+      "value": "L",
+      "options": [
+        {
+          "value": "N",
+          "label": "The Wicked Wall of Fire"
+        },
+        {
+          "value": "L",
+          "label": "Good Old Netaccess"
+        }
+      ]
+    },
+    {
+      "name": "lookupMtd",
+      "type": "radio",
+      "title": "Lookup the site using:",
+      "description": "IP address option is faster, if it works.",
+      "value": "DNS",
+      "options": [
+        {
+          "value": "DNS",
+          "label": "Domain name lookup"
+        },
+        {
+          "value": "IP",
+          "label": "IP address (skip DNS)"
+        }
+      ]
+    },
+    {
+      "type": "string",
+      "name": "uName1",
+      "value": "",
+      "title": "Username Preference 1"
+    },
+    {
+      "type": "string",
+      "name": "uName2",
+      "value": "",
+      "title": "Username Preference 2"
+    },
+    {
+      "type": "string",
+      "name": "uName3",
+      "value": "",
+      "title": "Username Preference 3"
+    }
+  ],
+  "dependencies": {
+    "fennec-addon-preferences-workaround": "github:rpl/fennec-addon-preferences-workaround"
+  }
+}
