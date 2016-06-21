@@ -10,7 +10,7 @@ A BASH script for the new Fortigate 3200D Firewall IIT Madras has installed in t
 
 ### Installation
 
-1. Download or copy the script to your home folder.
+1. Download or save the [script](https://raw.githubusercontent.com/amitanilkulkarni/instinet/master/keepalive/keepalive) to your home folder.
 2. Add your username and pasword in the place provided.
 3. Open terminal and give the script execution permission by running ```chmod +x keepalive```.
 4. Move the script to ```/usr/bin``` with ```sudo mv keepalive /usr/bin```.
