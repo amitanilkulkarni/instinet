@@ -1,0 +1,52 @@
+#!/bin/bash
+#
+# You can move this file to /usr/bin to make it run with just "keepalive" next time.
+# You may schedule it to autostart at login or after network status changes.
+# Report bugs to amitanilkulkarni<at>gmail.com
+# ----------------------------------------------------------------------------------------------
+
+
+# ----------------------------------------------------------------------------------------------
+# Insert your username and password within quotes
+# ----------------------------------------------------------------------------------------------
+
+Username='';
+Password='';
+
+# ----------------------------------------------------------------------------------------------
+# Let curl do the rest
+# ----------------------------------------------------------------------------------------------
+
+function getIDs() {
+    curl 'https://nfw.iitm.ac.in:1003/login?048bd6c30799653f' -k --silent > /tmp/page1.html;
+    Magic=$(cat /tmp/page1.html | grep -o -E 'name="magic" value=".{0,16}' | cut -b 21-50);
+    # echo $Magic;
+    curl -d "magic=$Magic&username=$Username&password=$Password&4Tredir=https://www.google.co.in" 'https://nfw.iitm.ac.in:1003/' -k --silent > /tmp/page2.html;
+    KeepAliveURL=$(cat /tmp/page2.html | grep 'keepalive?' | cut -b 32-85);
+    if [ -n "${Magic}" ]; then
+	echo "Logged in. Keepalive request will be sent every 200 seconds. Keep this terminal open."
+    else
+	echo "Can't connect to nfw.iitm.ac.in. Check your internet and try again."
+	exit;
+    fi
+}
+
+function check_internet() {
+    check=$(curl 'http://www.google.co.in' -k --silent | grep -o 'en-IN');
+    if [ -n "${check}" ]; then
+	echo "Keepalive request successful."
+    else
+	echo "Keepalive request failed. Please run the script again."
+	exit;
+    fi
+}
+
+
+getIDs;
+
+while sleep 200; do
+    curl -k "$KeepAliveURL" --silent > /dev/null;
+    check_internet;
+done
+
+# ----------------------------------------------------------------------------------------------
