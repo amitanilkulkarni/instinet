@@ -1,7 +1,19 @@
 # instinet
 A collection of scripts for IIT Madras campus network
 
-## Netaccess Plus
+
+## Keepalive
+
+A BASH script for the new Fortigate 3200D Firewall IIT Madras has installed in their campus network. This script uses cURL to send a keepalive request every 200 seconds, and keep the connection alive.
+
+### Adventages over keeping a browser window open
+  - No browser required
+  - Can be used in command line / TTY environment (without a display server)
+  - More reliable than keeping a browser window open
+  - No dependencies. cURL should be already installed in your Linux.
+
+
+## Netaccess Plus (Obsolete)
 
 A one-click Netaccess authenticator for IIT Madras students. It's available in the following forms:
 
@@ -10,7 +22,8 @@ A one-click Netaccess authenticator for IIT Madras students. It's available in t
  
 Source code and README is available in respective folders.
 
-## iProxy
+
+## iProxy (Obsolete)
 
 ```
 NOTE: This script is now obsolete, since the papers can now also be accessed without using the proxy.
