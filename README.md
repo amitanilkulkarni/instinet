@@ -6,7 +6,7 @@ A collection of scripts for IIT Madras campus network
 
 A BASH script for the new Fortigate 3200D Firewall IIT Madras has installed in their campus network. This script uses cURL to send a keepalive request every 200 seconds, and keep the connection alive.
 
-### Adventages over keeping a browser window open
+**Adventages over keeping a browser window open**
   - No browser required
   - Can be used in command line / TTY environment (without a display server)
   - More reliable than keeping a browser window open
