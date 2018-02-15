@@ -1,6 +1,6 @@
-# instinet
-A collection of scripts for IIT Madras campus network
-
+# Netaccess Plus
+A collection of add-ons and scripts for making IIT Madras campus network easier to use.
+Since I've graduated from IITM, I don't intend on maintaining these any longer. Feel free to fork them and tweak them to make them work. :) Good luck!
 
 ## Keepalive
 
